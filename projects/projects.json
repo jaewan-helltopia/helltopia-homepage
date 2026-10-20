@@ -154,16 +154,37 @@
       "id": "2025-07-busan-myeongji-sweetpalace",
       "date": "2025.07",
       "region": "부산",
-      "category": "장비 · 시공",
-      "title": "부산 강서구 아파트",
-      "summary": "커뮤니티 헬스장 활성화 · 장비",
+      "category": "위탁운영",
+      "title": "부산 강서구 1000세대 아파트",
+      "summary": "커뮤니티 헬스장 개설 오픈",
       "photos": [
         {
           "src": "projects/images/2025-07-busan-myeongji-sweetpalace-1.jpg",
-          "label": "3D 설계 이미지"
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2025-07-busan-myeongji-sweetpalace-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-07-busan-myeongji-sweetpalace-3.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-07-busan-myeongji-sweetpalace-4.jpg",
+          "label": "",
+          "cover": true
+        },
+        {
+          "src": "projects/images/2025-07-busan-myeongji-sweetpalace-5.jpg",
+          "label": "AFTER"
+        },
+        {
+          "src": "projects/images/2025-07-busan-myeongji-sweetpalace-6.jpg",
+          "label": ""
         }
       ],
-      "result": ""
+      "result": "비어 있던 헬스장 공간, 헬토피아 직접 투자로 아파트 초기 비용 없이 정상 오픈\n이용 회원 450명 유지\n인건비 · 위탁운영비 · 기구 렌탈비 제외 커뮤니티 순수익 월 400만원 창출\n운영 성과를 인정받아 입주자대표회의 · 관리사무소 구청장 표창 수상"
     },
     {
       "id": "2025-07-busan-hyupsung-treadmill",

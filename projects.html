@@ -277,7 +277,8 @@ function renderGrid() {
 const norm = ph => typeof ph === "string" ? { src: ph, label: "" } : ph;
 const isBefore = ph => /^(before|비포|전)$/i.test((ph.label || "").trim());
 const isAfter = ph => /^(after|애프터|후)$/i.test((ph.label || "").trim());
-const cover = p => p.photos.find(isAfter) || p.photos[0];
+// card thumbnail: a photo marked cover, else the AFTER photo, else the first one
+const cover = p => p.photos.find(ph => ph.cover) || p.photos.find(isAfter) || p.photos[0];
 
 function showPhoto(p, i) {
   photoIdx = (i + p.photos.length) % p.photos.length;
