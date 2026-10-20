@@ -7,6 +7,30 @@
   ],
   "projects": [
     {
+      "id": "2025-07-changwon-lottecastle-gx",
+      "date": "2025.07",
+      "region": "창원",
+      "category": "장비 · 시공",
+      "title": "창원 1000세대 아파트",
+      "summary": "유휴공간 대기구 필라테스룸 개설",
+      "photos": [
+        {
+          "src": "projects/images/2025-07-changwon-lottecastle-gx-before.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2025-07-changwon-lottecastle-gx-after.jpg",
+          "label": "AFTER"
+        },
+        {
+          "src": "projects/images/2025-07-changwon-lottecastle-gx-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": "미활용 유휴공간을 대기구 필라테스 전용룸으로 전환\n입주민 만족도 75% → 92% (17%p 상승)\n이용 입주민 126명 대상 현장 설문 기준",
+      "pin": true
+    },
+    {
       "id": "2025-12-daegu-winnersky",
       "date": "2025.12",
       "region": "대구",
@@ -151,21 +175,6 @@
       "photos": [
         {
           "src": "projects/images/2025-07-busan-hyupsung-treadmill-1.jpg",
-          "label": ""
-        }
-      ],
-      "result": ""
-    },
-    {
-      "id": "2025-07-changwon-lottecastle-gx",
-      "date": "2025.07",
-      "region": "창원",
-      "category": "장비 · 시공",
-      "title": "창원 아파트",
-      "summary": "GX룸 리뉴얼",
-      "photos": [
-        {
-          "src": "projects/images/2025-07-changwon-lottecastle-gx-1.jpg",
           "label": ""
         }
       ],

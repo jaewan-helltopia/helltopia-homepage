@@ -364,7 +364,8 @@ fetch("projects/projects.json", { cache: "no-cache" })
     DATA = d;
     DATA.projects.forEach(p => p.photos = (p.photos || []).map(norm).filter(ph => ph.src));
     DATA.projects = DATA.projects.filter(p => p.photos.length);
-    DATA.projects.sort((a, b) => b.date.localeCompare(a.date));
+    // pinned projects first, then newest first
+    DATA.projects.sort((a, b) => (b.pin ? 1 : 0) - (a.pin ? 1 : 0) || b.date.localeCompare(a.date));
     renderTabs();
     renderGrid();
     route();
