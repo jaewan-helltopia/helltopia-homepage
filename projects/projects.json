@@ -1,6 +1,7 @@
 {
   "categories": [
     "위탁운영",
+    "커뮤니티 활성화",
     "장비 · 시공",
     "컨설팅",
     "교류 · 기타"
@@ -10,7 +11,7 @@
       "id": "2025-07-changwon-lottecastle-gx",
       "date": "2025.07",
       "region": "창원",
-      "category": "장비 · 시공",
+      "category": "커뮤니티 활성화",
       "title": "창원 1000세대 아파트",
       "summary": "유휴공간 대기구 필라테스룸 개설",
       "photos": [
@@ -132,16 +133,24 @@
       "id": "2025-10-busan-myeongji-western-gx",
       "date": "2025.10",
       "region": "부산",
-      "category": "장비 · 시공",
-      "title": "부산 강서구 아파트",
-      "summary": "GX룸 리뉴얼",
+      "category": "커뮤니티 활성화",
+      "title": "부산 강서구 1200세대 아파트",
+      "summary": "유휴공간 GX프로그램 활성화",
       "photos": [
         {
-          "src": "projects/images/2025-10-busan-myeongji-western-gx-1.jpg",
+          "src": "projects/images/2025-10-busan-gangseo-gx-v2-1.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2025-10-busan-gangseo-gx-v2-2.jpg",
           "label": ""
+        },
+        {
+          "src": "projects/images/2025-10-busan-gangseo-gx-v2-3.jpg",
+          "label": "AFTER"
         }
       ],
-      "result": ""
+      "result": "GX 공간이 없던 단지의 유휴 공간을 대기구 필라테스 전용룸으로 전환\n입주민 등록률 100% 달성\n월 25만원 아파트 잡수익 창출로 헬토피아 월 위탁 수수료 전액 상회\n분기별 온라인 QR 만족도 조사 결과 만족도 97% (필라테스 수강 입주민 58명 대상)"
     },
     {
       "id": "2025-07-busan-myeongji-sweetpalace",
