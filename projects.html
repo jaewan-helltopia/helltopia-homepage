@@ -103,7 +103,8 @@ a { color: inherit; text-decoration: none; }
 .detail-head p { font-size: 18px; color: var(--sub); }
 .detail-body { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 48px; align-items: start; }
 .stage { position: relative; border-radius: 4px; overflow: hidden; background: var(--soft); }
-.stage img { width: 100%; max-height: 78vh; object-fit: contain; display: block; background: var(--soft); }
+/* every photo shows in the same 3:2 frame, whatever its original size */
+.stage img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; background: var(--soft); }
 
 .nav-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); color: var(--ink); font-size: 20px; cursor: pointer; display: grid; place-items: center; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
 .nav-btn.prev { left: 14px; } .nav-btn.next { right: 14px; }
