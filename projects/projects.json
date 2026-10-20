@@ -1,0 +1,175 @@
+{
+  "categories": [
+    "위탁운영",
+    "장비 · 시공",
+    "컨설팅",
+    "교류 · 기타"
+  ],
+  "projects": [
+    {
+      "id": "2025-12-daegu-winnersky",
+      "date": "2025.12",
+      "region": "대구",
+      "category": "장비 · 시공",
+      "title": "대구 오피스텔",
+      "summary": "오피스텔 헬스장 설치 및 활성화",
+      "photos": [
+        {
+          "src": "projects/images/2025-12-daegu-winnersky-1.jpg",
+          "label": "3D 설계 이미지"
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-11-busan-myeongji-duclass",
+      "date": "2025.11",
+      "region": "부산",
+      "category": "컨설팅",
+      "title": "부산 강서구 오피스텔",
+      "summary": "오피스텔 운영 컨설팅 · 장비",
+      "photos": [
+        {
+          "src": "projects/images/2025-11-busan-myeongji-duclass-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-11-shanghai-supermonkey",
+      "date": "2025.11",
+      "region": "중국 상하이",
+      "category": "교류 · 기타",
+      "title": "중국 상하이 SUPERMONKEY",
+      "summary": "헬토피아 × 슈퍼몽키 피트니스 교류",
+      "photos": [
+        {
+          "src": "projects/images/2025-11-shanghai-supermonkey-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-11-busan-hyupsung-reading",
+      "date": "2025.11",
+      "region": "부산",
+      "category": "위탁운영",
+      "title": "부산 아파트",
+      "summary": "커뮤니티 독서실 오픈",
+      "photos": [
+        {
+          "src": "projects/images/2025-11-busan-hyupsung-reading-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-11-changwon-lottecastle-kids",
+      "date": "2025.11",
+      "region": "창원",
+      "category": "위탁운영",
+      "title": "창원 아파트",
+      "summary": "키즈 물놀이 운영",
+      "photos": [
+        {
+          "src": "projects/images/2025-11-changwon-lottecastle-kids-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-11-changwon-kolon-golf",
+      "date": "2025.11",
+      "region": "창원",
+      "category": "위탁운영",
+      "title": "창원 아파트",
+      "summary": "골프 락커 라운지 활성화",
+      "photos": [
+        {
+          "src": "projects/images/2025-11-changwon-kolon-golf-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-10-busan-myeongji-western-gx",
+      "date": "2025.10",
+      "region": "부산",
+      "category": "장비 · 시공",
+      "title": "부산 강서구 아파트",
+      "summary": "GX룸 리뉴얼",
+      "photos": [
+        {
+          "src": "projects/images/2025-10-busan-myeongji-western-gx-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-10-changwon-formgym-floor",
+      "date": "2025.10",
+      "region": "창원",
+      "category": "장비 · 시공",
+      "title": "창원 헬스장",
+      "summary": "고무 바닥 시공",
+      "photos": [
+        {
+          "src": "projects/images/2025-10-changwon-formgym-floor-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-07-busan-myeongji-sweetpalace",
+      "date": "2025.07",
+      "region": "부산",
+      "category": "장비 · 시공",
+      "title": "부산 강서구 아파트",
+      "summary": "커뮤니티 헬스장 활성화 · 장비",
+      "photos": [
+        {
+          "src": "projects/images/2025-07-busan-myeongji-sweetpalace-1.jpg",
+          "label": "3D 설계 이미지"
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-07-busan-hyupsung-treadmill",
+      "date": "2025.07",
+      "region": "부산",
+      "category": "장비 · 시공",
+      "title": "부산 강서구 아파트",
+      "summary": "러닝머신 교체",
+      "photos": [
+        {
+          "src": "projects/images/2025-07-busan-hyupsung-treadmill-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    },
+    {
+      "id": "2025-07-changwon-lottecastle-gx",
+      "date": "2025.07",
+      "region": "창원",
+      "category": "장비 · 시공",
+      "title": "창원 아파트",
+      "summary": "GX룸 리뉴얼",
+      "photos": [
+        {
+          "src": "projects/images/2025-07-changwon-lottecastle-gx-1.jpg",
+          "label": ""
+        }
+      ],
+      "result": ""
+    }
+  ]
+}

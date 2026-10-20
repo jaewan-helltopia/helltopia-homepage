@@ -302,6 +302,8 @@ footer .credit { font-size: 12px; opacity: .7; }
 /* Hamburger menu: drawer slides in from the right */
 body { position: relative; }
 .top-actions { display: flex; align-items: center; gap: 14px; }
+.top-link { font-size: 15.5px; font-weight: 500; color: var(--sub); padding-inline: 8px; }
+.top-link:hover { color: var(--green); }
 .burger { width: 44px; height: 44px; border: 0; background: transparent; cursor: pointer; display: grid; align-content: center; justify-items: end; gap: 7px; padding: 0 6px; border-radius: 10px; }
 .burger span { display: block; width: 26px; height: 2px; border-radius: 2px; background: var(--ink); transition: width .25s; }
 .burger span:nth-child(2) { width: 20px; }
@@ -342,6 +344,7 @@ body { position: relative; }
   <div class="wrap">
     <a class="logo" href="#top"><img src="images/logo.png" alt="헬토피아 아파트 커뮤니티 시설관리 전문회사"></a>
     <div class="top-actions">
+      <a class="top-link" href="projects.html">프로젝트</a>
       <a class="btn btn-green" href="#contact">상담 신청</a>
       <button class="burger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
     </div>
@@ -587,6 +590,7 @@ body { position: relative; }
       <a href="#promise">운영 원칙</a>
       <a href="#process">진행 절차</a>
       <a href="#contact">상담 신청</a>
+      <a href="projects.html" data-page>프로젝트</a>
     </nav>
     <div class="menu-foot">
       <small>대표 전화</small>
@@ -635,7 +639,7 @@ if ("IntersectionObserver" in window && !calm) {
 // Hamburger menu
 const menu = document.getElementById("menu");
 const burger = document.querySelector(".burger");
-const sections = [...menu.querySelectorAll(".menu-links a")].map(a => document.querySelector(a.getAttribute("href")));
+const sections = [...menu.querySelectorAll(".menu-links a[href^=\"#\"]")].map(a => document.querySelector(a.getAttribute("href")));
 let view = null; // visible strip when shown inside a full-height frame
 function openMenu() {
   if (view) { menu.classList.add("tracked"); menu.style.top = view.top + "px"; menu.style.height = view.h + "px"; }
@@ -648,7 +652,7 @@ function openMenu() {
     const vis = Math.min(r.bottom, vTop + vH) - Math.max(r.top, vTop);
     if (vis > max) { max = vis; best = sec; }
   });
-  menu.querySelectorAll(".menu-links a").forEach((a, i) => a.classList.toggle("active", sections[i] === best));
+  menu.querySelectorAll(".menu-links a[href^=\"#\"]").forEach((a, i) => a.classList.toggle("active", sections[i] === best));
   requestAnimationFrame(() => menu.classList.add("open"));
   burger.setAttribute("aria-expanded", "true");
   menu.querySelector(".menu-close").focus();
@@ -661,7 +665,7 @@ function closeMenu(then) {
 burger.addEventListener("click", openMenu);
 menu.querySelectorAll("[data-close]").forEach(el => el.addEventListener("click", () => closeMenu()));
 addEventListener("keydown", e => { if (e.key === "Escape" && !menu.hidden) closeMenu(); });
-menu.querySelectorAll(".menu-links a").forEach((a, i) => a.addEventListener("click", e => {
+menu.querySelectorAll(".menu-links a[href^=\"#\"]").forEach((a, i) => a.addEventListener("click", e => {
   e.preventDefault();
   closeMenu(() => sections[i].scrollIntoView({ behavior: calm ? "auto" : "smooth", block: "start" }));
 }));
