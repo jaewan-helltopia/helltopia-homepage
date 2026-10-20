@@ -105,6 +105,7 @@ a { color: inherit; text-decoration: none; }
 .stage { position: relative; border-radius: 4px; overflow: hidden; background: var(--soft); }
 /* every photo shows in the same 3:2 frame, whatever its original size */
 .stage img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; background: var(--soft); }
+.stage img.contain { object-fit: contain; }
 
 .nav-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); color: var(--ink); font-size: 20px; cursor: pointer; display: grid; place-items: center; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
 .nav-btn.prev { left: 14px; } .nav-btn.next { right: 14px; }
@@ -284,6 +285,7 @@ function showPhoto(p, i) {
   photoIdx = (i + p.photos.length) % p.photos.length;
   const ph = p.photos[photoIdx];
   $("d-img").src = ph.src;
+  $("d-img").classList.toggle("contain", ph.fit === "contain");
   $("d-img").alt = `${p.title} ${p.summary} 사진 ${photoIdx + 1}`;
   $("d-label").textContent = ph.label || "";
   $("d-label").hidden = !ph.label;
