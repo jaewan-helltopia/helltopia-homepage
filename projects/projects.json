@@ -80,16 +80,25 @@
       "id": "2025-11-busan-hyupsung-reading",
       "date": "2025.11",
       "region": "부산",
-      "category": "위탁운영",
-      "title": "부산 아파트",
-      "summary": "커뮤니티 독서실 오픈",
+      "category": "커뮤니티 활성화",
+      "title": "부산 강서구 1600세대 아파트",
+      "summary": "커뮤니티 독서실 신규 개설",
       "photos": [
         {
-          "src": "projects/images/2025-11-busan-hyupsung-reading-1.jpg",
+          "src": "projects/images/2025-11-busan-gangseo-reading-v2-2.jpg",
           "label": ""
+        },
+        {
+          "src": "projects/images/2025-11-busan-gangseo-reading-v2-3.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-11-busan-gangseo-reading-v2-4.jpg",
+          "label": "",
+          "cover": true
         }
       ],
-      "result": ""
+      "result": "유휴공간을 입주민 전용 1인 독서실로 조성 및 운영 지원\n월 독서실 수익으로 헬토피아 월 위탁 수수료의 70% 이상 충당\n입주민 만족도 최상, 현재 전 좌석 만석 운영"
     },
     {
       "id": "2025-11-changwon-lottecastle-kids",
