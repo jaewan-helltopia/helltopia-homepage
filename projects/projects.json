@@ -2,9 +2,10 @@
   "categories": [
     "위탁운영",
     "커뮤니티 활성화",
+    "헬스장 개설",
     "장비 · 시공",
-    "컨설팅",
-    "교류 · 기타"
+    "아파트 행사",
+    "컨설팅"
   ],
   "projects": [
     {
@@ -63,18 +64,38 @@
     },
     {
       "id": "2025-11-shanghai-supermonkey",
-      "date": "2025.11",
-      "region": "중국 상하이",
-      "category": "교류 · 기타",
-      "title": "중국 상하이 SUPERMONKEY",
-      "summary": "헬토피아 × 슈퍼몽키 피트니스 교류",
+      "date": "2024.10",
+      "region": "신용산역 사무실",
+      "category": "헬스장 개설",
+      "title": "서울 용산구 사무실",
+      "summary": "서울 용산구 오피스 헬스장 개설",
       "photos": [
         {
-          "src": "projects/images/2025-11-shanghai-supermonkey-1.jpg",
+          "src": "projects/images/2024-10-seoul-yongsan-office-gym-1.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2024-10-seoul-yongsan-office-gym-2.jpg",
+          "label": "3D 설계 이미지"
+        },
+        {
+          "src": "projects/images/2024-10-seoul-yongsan-office-gym-3.jpg",
+          "label": "3D 설계 이미지"
+        },
+        {
+          "src": "projects/images/2024-10-seoul-yongsan-office-gym-4.jpg",
           "label": ""
+        },
+        {
+          "src": "projects/images/2024-10-seoul-yongsan-office-gym-5.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2024-10-seoul-yongsan-office-gym-6.jpg",
+          "label": "AFTER"
         }
       ],
-      "result": ""
+      "result": "사내 복지를 위한 오피스 헬스장 신규 개설 및 해외 브랜드 머신 배치\n4층 철거 작업부터 개인 샤워 부스 2대 설치, 인테리어 시공까지 일괄 진행"
     },
     {
       "id": "2025-11-busan-hyupsung-reading",
@@ -104,16 +125,20 @@
       "id": "2025-11-changwon-lottecastle-kids",
       "date": "2025.11",
       "region": "창원",
-      "category": "위탁운영",
-      "title": "창원 아파트",
-      "summary": "키즈 물놀이 운영",
+      "category": "아파트 행사",
+      "title": "창원 마산회원구 1000세대 아파트",
+      "summary": "여름 단지 물놀이 행사",
       "photos": [
         {
-          "src": "projects/images/2025-11-changwon-lottecastle-kids-1.jpg",
+          "src": "projects/images/2025-11-changwon-kids-water-v2-1.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-11-changwon-kids-water-v2-2.jpg",
           "label": ""
         }
       ],
-      "result": ""
+      "result": "하계 물놀이 놀이터 운영 및 안전요원 배치\n입주민 전용 팔찌 발급으로 현장 출입 확인"
     },
     {
       "id": "2025-11-changwon-kolon-golf",
