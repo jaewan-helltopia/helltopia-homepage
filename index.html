@@ -302,8 +302,50 @@ footer .credit { font-size: 12px; opacity: .7; }
 /* Hamburger menu: drawer slides in from the right */
 body { position: relative; }
 .top-actions { display: flex; align-items: center; gap: 14px; }
-.top-link { font-size: 15.5px; font-weight: 500; color: var(--sub); padding-inline: 8px; }
-.top-link:hover { color: var(--green); }
+.top-nav { display: flex; gap: 26px; font-size: 15.5px; font-weight: 500; margin-right: 10px; }
+.top-nav a { color: var(--sub); }
+.top-nav a:hover, .top-nav a[aria-current="page"] { color: var(--green); }
+@media (max-width: 960px) { .top-nav { display: none; } }
+.foot-nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14.5px; font-weight: 500; color: var(--ink); }
+.foot-nav a:hover { color: var(--green); }
+.menu-links a[aria-current="page"] { color: var(--green); }
+/* Sub page title band */
+.band { background: var(--green-dark); color: #fff; }
+.band .wrap { padding-block: 72px 64px; display: grid; gap: 12px; }
+.band small { font-size: 14px; font-weight: 600; letter-spacing: 0.1em; color: #A9D3A2; }
+.band h1 { font-size: clamp(32px, 4.4vw, 48px); font-weight: 500; line-height: 1.3; }
+.band p { font-size: 18px; color: rgba(255,255,255,.75); }
+.next-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.next-link { border: 1px solid var(--line); border-radius: 4px; padding: 26px 24px; display: grid; gap: 6px; transition: border-color .3s; }
+.next-link small { font-size: 13px; color: var(--green); font-weight: 600; letter-spacing: .06em; }
+.next-link b { font-size: 19px; font-weight: 600; }
+.next-link:hover { border-color: var(--green); }
+/* Events */
+.events { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.event { background: var(--bg); border-radius: 20px; padding: 32px 28px; display: grid; gap: 10px; align-content: start; transition: transform .3s, box-shadow .3s; }
+.event:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(20,23,20,.08); }
+.event-tag { justify-self: start; font-size: 12.5px; font-weight: 600; color: var(--green); background: var(--green-tint); padding: 4px 12px; border-radius: 999px; }
+.event h3 { font-size: 22px; font-weight: 600; margin-top: 6px; }
+.event p { font-size: 15px; color: var(--sub); }
+@media (max-width: 960px) { .events { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .events { grid-template-columns: 1fr; } }
+
+/* About */
+.about { display: grid; grid-template-columns: 1fr 1.2fr; gap: 64px; align-items: start; }
+.about-quote { display: grid; gap: 20px; }
+.quote { font-size: clamp(26px, 3vw, 36px); font-weight: 500; line-height: 1.45; letter-spacing: -0.02em; }
+.about-facts { margin: 12px 0 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.about-facts div { display: grid; grid-template-columns: 96px 1fr; padding-block: 14px; border-bottom: 1px solid var(--line); font-size: 15px; }
+.about-facts dt { color: var(--sub); }
+.about-facts dd { margin: 0; font-weight: 500; }
+.about-body { display: grid; gap: 18px; padding-top: 34px; }
+.about-body h2 { font-size: 22px; font-weight: 600; }
+.about-body p { font-size: 16.5px; color: var(--sub); line-height: 1.9; }
+.about-body .sign { color: var(--ink); margin-top: 8px; font-size: 16px; }
+.about-body .sign b { font-size: 20px; font-weight: 600; margin-left: 6px; }
+@media (max-width: 900px) { .about { grid-template-columns: 1fr; gap: 40px; } .about-body { padding-top: 0; } }
+
+
 .burger { width: 44px; height: 44px; border: 0; background: transparent; cursor: pointer; display: grid; align-content: center; justify-items: end; gap: 7px; padding: 0 6px; border-radius: 10px; }
 .burger span { display: block; width: 26px; height: 2px; border-radius: 2px; background: var(--ink); transition: width .25s; }
 .burger span:nth-child(2) { width: 20px; }
@@ -344,8 +386,13 @@ body { position: relative; }
   <div class="wrap">
     <a class="logo" href="#top"><img src="images/logo.png" alt="헬토피아 아파트 커뮤니티 시설관리 전문회사"></a>
     <div class="top-actions">
-      <a class="top-link" href="projects.html">프로젝트</a>
-      <a class="btn btn-green" href="#contact">상담 신청</a>
+      <nav class="top-nav" aria-label="주요 메뉴">
+        <a href="about.html">회사소개</a>
+        <a href="services.html">사업분야</a>
+        <a href="events.html">아파트 행사</a>
+        <a href="projects.html">프로젝트</a>
+      </nav>
+      <a class="btn btn-green" href="contact.html">상담 신청</a>
       <button class="burger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -564,6 +611,9 @@ body { position: relative; }
 <footer>
   <div class="wrap">
     <img src="images/logo.png" alt="헬토피아">
+    <nav class="foot-nav" aria-label="사이트 메뉴">
+      <a href="about.html">회사소개</a><a href="services.html">사업분야</a><a href="events.html">아파트 행사</a><a href="projects.html">프로젝트</a><a href="contact.html">상담 신청</a>
+    </nav>
     <div class="lines">
       <span>상호 헬토피아 · 대표 안재완 · TEL 010-2995-3674 · official@helltopiafitness.com</span>
       <span>창원 본사 경남 창원시 마산회원구 3·15대로 732 남산빌딩 405호</span>
@@ -583,14 +633,12 @@ body { position: relative; }
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
     </div>
     <nav class="menu-links" aria-label="페이지 메뉴">
-      <a href="#home">처음으로</a>
-      <a href="#hook">커뮤니티의 첫인상</a>
-      <a href="#why">활성화가 어려운 이유</a>
-      <a href="#services">사업분야</a>
-      <a href="#promise">운영 원칙</a>
-      <a href="#process">진행 절차</a>
-      <a href="#contact">상담 신청</a>
-      <a href="projects.html" data-page>프로젝트</a>
+      <a href="index.html">홈</a>
+      <a href="about.html">회사소개</a>
+      <a href="services.html">사업분야</a>
+      <a href="events.html">아파트 행사</a>
+      <a href="projects.html">프로젝트</a>
+      <a href="contact.html">상담 신청</a>
     </nav>
     <div class="menu-foot">
       <small>대표 전화</small>
@@ -611,14 +659,19 @@ const header = document.querySelector(".top");
 addEventListener("scroll", () => header.classList.toggle("scrolled", scrollY > 10), { passive: true });
 
 // Hero: lines rise in on load, plus a scroll cue
-document.querySelector(".hero .wrap").classList.add("hero-in");
-document.querySelector(".hero").insertAdjacentHTML("beforeend", '<span class="hero-scroll" aria-hidden="true"></span>');
+if (document.querySelector(".hero")) {
+  document.querySelector(".hero .wrap").classList.add("hero-in");
+  document.querySelector(".hero").insertAdjacentHTML("beforeend", '<span class="hero-scroll" aria-hidden="true"></span>');
+}
+// mark the current page in the menus
+const here = location.pathname.split("/").pop() || "index.html";
+document.querySelectorAll(".top-nav a, .menu-links a").forEach(a => { if (a.getAttribute("href") === here) a.setAttribute("aria-current", "page"); });
 
 // Scroll reveal. The observer reports against the visible screen even when the page sits in a
 // full-height frame (as in the preview), so every element is observed rather than judged by innerHeight.
 const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
 if ("IntersectionObserver" in window && !calm) {
-  const groups = [".hook-label", ".hook-line", ".hook-sub", ".crow", ".hook-answer", ".head", ".why-card", ".why-answer", ".svc", ".zero-card", ".deficit", ".step", ".info", "form"];
+  const groups = [".hook-label", ".hook-line", ".hook-sub", ".crow", ".hook-answer", ".head", ".why-card", ".why-answer", ".svc", ".zero-card", ".deficit", ".step", ".info", "form", ".event", ".about-quote", ".about-body", ".next-link"];
   const io = new IntersectionObserver(entries => {
     entries.forEach(en => {
       if (!en.isIntersecting) return;
@@ -696,7 +749,7 @@ function whenReached(el, cb) {
     return;
   }
   // 미리보기처럼 긴 틀 안에 들어간 경우: 먼저 브라우저가 실제 보이는 영역을 알려주는지 확인
-  const hero = document.querySelector(".hero"), foot = document.querySelector("footer");
+  const hero = document.querySelector(".hero, .band"), foot = document.querySelector("footer");
   const probe = new IntersectionObserver(entries => {
     probe.disconnect();
     const seen = new Map(entries.map(e => [e.target, e.isIntersecting]));
@@ -753,7 +806,7 @@ function countDown(el) {
 const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbxZqiwysirvIqJRx9Gts97V237RTwW9SGag0NYTxzPdrNh86ZFkl65gE1MTVtP7NB05Eg/exec";
 const LIVE = /(^|\.)helltopiafitness\.com$|\.github\.io$/.test(location.hostname);
 const form = document.getElementById("inquiry");
-form.addEventListener("submit", async e => {
+if (form) form.addEventListener("submit", async e => {
   e.preventDefault();
   const note = document.getElementById("form-note");
   const btn = document.getElementById("f-submit");

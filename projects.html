@@ -58,7 +58,10 @@ a { color: inherit; text-decoration: none; }
 .top-nav { display: flex; align-items: center; gap: 28px; font-size: 15.5px; font-weight: 500; }
 .top-nav a:not(.btn) { color: var(--sub); }
 .top-nav a:not(.btn):hover, .top-nav a[aria-current="page"] { color: var(--green); }
+@media (max-width: 860px) { .top-nav .opt { display: none; } }
 @media (max-width: 560px) { .logo img { height: 32px; } .top-nav { gap: 16px; font-size: 14.5px; } .top-nav .btn { padding-inline: 14px; } }
+.foot-nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14.5px; font-weight: 500; color: var(--ink); }
+.foot-nav a:hover { color: var(--green); }
 
 /* Title band */
 .band { background: var(--green-dark); color: #fff; }
@@ -160,9 +163,11 @@ footer .lines { display: grid; gap: 4px; }
   <div class="wrap">
     <a class="logo" href="index.html"><img src="images/logo.png" alt="헬토피아 아파트 커뮤니티 시설관리 전문회사"></a>
     <nav class="top-nav" aria-label="주요 메뉴">
-      <a href="index.html">홈</a>
+      <a class="opt" href="about.html">회사소개</a>
+      <a class="opt" href="services.html">사업분야</a>
+      <a class="opt" href="events.html">아파트 행사</a>
       <a href="projects.html" aria-current="page">프로젝트</a>
-      <a class="btn btn-green" href="index.html#contact">상담 신청</a>
+      <a class="btn btn-green" href="contact.html">상담 신청</a>
     </nav>
   </div>
 </header>
@@ -223,7 +228,7 @@ footer .lines { display: grid; gap: 4px; }
         </dl>
         <div class="side-cta">
           <b>우리 단지도 이렇게 바꿀 수 있을까요?</b>
-          <a class="btn btn-green" href="index.html#contact">무료 현장 진단 신청</a>
+          <a class="btn btn-green" href="contact.html">무료 현장 진단 신청</a>
         </div>
       </aside>
     </div>
@@ -234,6 +239,9 @@ footer .lines { display: grid; gap: 4px; }
 <footer>
   <div class="wrap">
     <img src="images/logo.png" alt="헬토피아">
+    <nav class="foot-nav" aria-label="사이트 메뉴">
+      <a href="index.html">홈</a><a href="about.html">회사소개</a><a href="services.html">사업분야</a><a href="events.html">아파트 행사</a><a href="projects.html">프로젝트</a><a href="contact.html">상담 신청</a>
+    </nav>
     <div class="lines">
       <span>상호 헬토피아 · 대표 안재완 · TEL 010-2995-3674 · official@helltopiafitness.com</span>
       <span>창원 본사 경남 창원시 마산회원구 3·15대로 732 남산빌딩 405호</span>
