@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>프로젝트 | 헬토피아 아파트 커뮤니티 위탁운영 시설 관리 전문기업</title>
+<title>프로젝트 | 헬토피아(Helltopia) 아파트 커뮤니티 위탁운영 시설 관리 전문기업</title>
 <meta name="description" content="헬토피아가 직접 운영하고 시공한 아파트 커뮤니티 현장. 위탁운영, 장비 납품 및 인테리어 시공, 컨설팅 프로젝트를 소개합니다.">
 <link rel="canonical" href="https://www.helltopiafitness.com/projects.html">
 <meta name="theme-color" content="#1E4A1C">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="헬토피아">
-<meta property="og:title" content="프로젝트 | 헬토피아">
+<meta property="og:site_name" content="헬토피아(Helltopia)">
+<meta property="og:title" content="프로젝트 | 헬토피아(Helltopia)">
 <meta property="og:description" content="헬토피아가 직접 운영하고 시공한 아파트 커뮤니티 현장">
 <meta property="og:url" content="https://www.helltopiafitness.com/projects.html">
 <meta property="og:image" content="https://www.helltopiafitness.com/images/og.jpg">
@@ -334,7 +334,7 @@ function renderDetail(p) {
   $("pager").innerHTML =
     (prev ? `<a class="prev" href="#${esc(prev.id)}">← 이전 프로젝트<b>${esc(prev.summary)}</b></a>` : "<span></span>") +
     (next ? `<a class="next" href="#${esc(next.id)}">다음 프로젝트 →<b>${esc(next.summary)}</b></a>` : "<span></span>");
-  document.title = `${p.summary} · ${p.title} | 헬토피아 프로젝트`;
+  document.title = `${p.summary} · ${p.title} | 헬토피아(Helltopia) 프로젝트`;
 }
 
 function route() {
@@ -346,7 +346,7 @@ function route() {
     renderDetail(p);
     $("detail-view").scrollIntoView({ block: "start" });
   } else {
-    document.title = "프로젝트 | 헬토피아 아파트 커뮤니티 위탁운영 시설 관리 전문기업";
+    document.title = "프로젝트 | 헬토피아(Helltopia) 아파트 커뮤니티 위탁운영 시설 관리 전문기업";
   }
 }
 
