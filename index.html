@@ -311,6 +311,19 @@ body { position: relative; }
 .foot-nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14.5px; font-weight: 500; color: var(--ink); }
 .foot-nav a:hover { color: var(--green); }
 .menu-links a[aria-current="page"] { color: var(--green); }
+/* Event photo cards */
+.ev-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px; }
+.ev-card { grid-column: span 2; position: relative; aspect-ratio: 4 / 3; max-width: 100%; border-radius: 4px; overflow: hidden; color: #fff; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding: 28px; isolation: isolate; }
+.ev-card.wide { grid-column: span 3; aspect-ratio: 16 / 9; }
+.ev-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .8s ease; }
+.ev-card::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(0,0,0,.05) 25%, rgba(0,0,0,.72) 100%); }
+.ev-card:hover img { transform: scale(1.05); }
+.ev-tag { align-self: flex-start; font-size: 13px; font-weight: 600; color: var(--ink); background: rgba(255,255,255,.92); padding: 5px 12px; border-radius: 2px; }
+.ev-card h3 { font-size: clamp(22px, 2.4vw, 28px); font-weight: 600; letter-spacing: -0.02em; }
+.ev-card p { font-size: 15.5px; color: rgba(255,255,255,.85); }
+.ev-note { position: absolute; top: 14px; right: 14px; font-size: 11.5px; color: rgba(255,255,255,.8); background: rgba(0,0,0,.35); padding: 2px 8px; border-radius: 2px; }
+@media (max-width: 960px) { .ev-card, .ev-card.wide { grid-column: span 3; aspect-ratio: 4 / 3; } }
+@media (max-width: 600px) { .ev-card, .ev-card.wide { grid-column: span 6; } }
 /* Sub page title band */
 .band { background: var(--green-dark); color: #fff; }
 .band .wrap { padding-block: 72px 64px; display: grid; gap: 12px; }
@@ -622,7 +635,7 @@ body { position: relative; }
       <span>서울 지사 서울 동작구 상도로61길 44 4층</span>
     </div>
     <span>© 2026 헬토피아. All rights reserved.</span>
-    <small class="credit">사진 출처(Wikimedia Commons): Kimhs5400 (CC BY 4.0), GoToVan (CC BY 2.0), Shixart1985 (CC BY 2.0), Pfc. Trinity Carter (Public domain), Negative Space (CC0)</small>
+    <small class="credit">사진 출처(Wikimedia Commons): Kimhs5400 (CC BY 4.0), GoToVan (CC BY 2.0), Shixart1985 (CC BY 2.0), Pfc. Trinity Carter (Public domain), Negative Space (CC0), MIKI Yoshihito (CC BY 2.0), lumoplank (CC0)</small>
   </div>
 </footer>
 
@@ -673,7 +686,7 @@ document.querySelectorAll(".top-nav a, .menu-links a").forEach(a => { if (a.getA
 // full-height frame (as in the preview), so every element is observed rather than judged by innerHeight.
 const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
 if ("IntersectionObserver" in window && !calm) {
-  const groups = [".hook-label", ".hook-line", ".hook-sub", ".crow", ".hook-answer", ".head", ".why-card", ".why-answer", ".svc", ".zero-card", ".deficit", ".step", ".info", "form", ".event", ".about-quote", ".about-body", ".next-link"];
+  const groups = [".hook-label", ".hook-line", ".hook-sub", ".crow", ".hook-answer", ".head", ".why-card", ".why-answer", ".svc", ".zero-card", ".deficit", ".step", ".info", "form", ".event", ".ev-card", ".about-quote", ".about-body", ".next-link"];
   const io = new IntersectionObserver(entries => {
     entries.forEach(en => {
       if (!en.isIntersecting) return;
