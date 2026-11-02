@@ -248,6 +248,29 @@
         }
       ],
       "result": "노후 런닝머신 철거 후 신규 DRAX 런닝머신으로 교체\n장비 교체 및 입주민 홍보 이후 헬스장 이용 회원 46명 증가"
+    },
+    {
+      "id": "2025-08-busan-gangseo-golf-locker",
+      "date": "2025.08",
+      "region": "부산",
+      "category": "장비 · 시공",
+      "title": "부산 강서구 1200세대 아파트",
+      "summary": "골프 락커 증설 지원",
+      "photos": [
+        {
+          "src": "projects/images/2025-08-busan-gangseo-golf-locker-1.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2025-08-busan-gangseo-golf-locker-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-08-busan-gangseo-golf-locker-3.jpg",
+          "label": "AFTER"
+        }
+      ],
+      "result": "세대 수에 비해 골프 락커가 부족해 입주민 민원이 이어지던 단지\n수요에 맞춰 골프 락커를 넉넉하게 증설해 민원 해소\n추가 락커 이용료로 아파트 커뮤니티 수익 증대"
     }
   ]
 }
