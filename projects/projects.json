@@ -271,6 +271,65 @@
         }
       ],
       "result": "세대 수에 비해 골프 락커가 부족해 입주민 민원이 이어지던 단지\n수요에 맞춰 골프 락커를 넉넉하게 증설해 민원 해소\n추가 락커 이용료로 아파트 커뮤니티 수익 증대"
+    },
+    {
+      "id": "2025-09-changwon-uichang-festival",
+      "date": "2025.09",
+      "region": "창원",
+      "category": "아파트 행사",
+      "title": "창원 의창구 1000세대 아파트",
+      "summary": "아파트 한마음 대축제",
+      "photos": [
+        {
+          "src": "projects/images/2025-09-changwon-uichang-festival-1.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-09-changwon-uichang-festival-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2025-09-changwon-uichang-festival-3.jpg",
+          "label": "",
+          "cover": true
+        },
+        {
+          "src": "projects/images/2025-09-changwon-uichang-festival-4.jpg",
+          "label": ""
+        }
+      ],
+      "result": "1년에 한 번 열리는 단지 대표 축제\n입주자대표회의 주관 행사에 헬토피아가 운영 협조로 참여\n현장 동선 정리와 진행 지원으로 원활한 축제 운영에 기여"
+    },
+    {
+      "id": "2026-01-busan-yeonje-gym",
+      "date": "2026.01",
+      "region": "부산",
+      "category": "헬스장 개설",
+      "title": "부산 연제구 200세대 아파트",
+      "summary": "소규모 단지 커뮤니티 헬스장 개설",
+      "photos": [
+        {
+          "src": "projects/images/2026-01-busan-yeonje-gym-1b.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2026-01-busan-yeonje-gym-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-01-busan-yeonje-gym-3.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-01-busan-yeonje-gym-4.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-01-busan-yeonje-gym-5b.jpg",
+          "label": "AFTER"
+        }
+      ],
+      "result": "공동주택관리법상 커뮤니티 시설 의무가 없는 소규모 단지의 헬스장 신규 개설\n용도 변경부터 시공까지 A to Z 일괄 진행한 저예산 프로젝트\n관리비 부담을 줄이기 위해 자사 물류 시스템의 A급 리퍼비시 장비와 신품을 혼합 구성"
     }
   ]
 }
