@@ -330,6 +330,33 @@
         }
       ],
       "result": "공동주택관리법상 커뮤니티 시설 의무가 없는 소규모 단지의 헬스장 신규 개설\n용도 변경부터 시공까지 A to Z 일괄 진행한 저예산 프로젝트\n관리비 부담을 줄이기 위해 자사 물류 시스템의 A급 리퍼비시 장비와 신품을 혼합 구성"
+    },
+    {
+      "id": "2026-02-busan-suyeong-pilates",
+      "date": "2026.02",
+      "region": "부산",
+      "category": "커뮤니티 활성화",
+      "title": "부산 수영구 1100세대 아파트",
+      "summary": "유휴공간 대기구 필라테스룸 개설",
+      "photos": [
+        {
+          "src": "projects/images/2026-02-busan-suyeong-pilates-1.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2026-02-busan-suyeong-pilates-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-02-busan-suyeong-pilates-3.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-02-busan-suyeong-pilates-4.jpg",
+          "label": "AFTER"
+        }
+      ],
+      "result": "아파트 투자 없이 유휴공간을 대기구 필라테스룸으로 조성해 직접 운영\n지역 최저 수준의 회원권으로 입주민 복지 강화\n매월 20만원 아파트 수익 창출 및 입주민 만족도 향상"
     }
   ]
 }
