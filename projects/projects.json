@@ -1,6 +1,5 @@
 {
   "categories": [
-    "위탁운영",
     "커뮤니티 활성화",
     "헬스장 개설",
     "장비 · 시공",
@@ -194,7 +193,7 @@
       "id": "2025-07-busan-myeongji-sweetpalace",
       "date": "2025.07",
       "region": "부산",
-      "category": "위탁운영",
+      "category": "헬스장 개설",
       "title": "부산 강서구 1000세대 아파트",
       "summary": "커뮤니티 헬스장 개설 오픈",
       "photos": [
@@ -357,6 +356,35 @@
         }
       ],
       "result": "아파트 투자 없이 유휴공간을 대기구 필라테스룸으로 조성해 직접 운영\n지역 최저 수준의 회원권으로 입주민 복지 강화\n매월 20만원 아파트 수익 창출 및 입주민 만족도 향상"
+    },
+    {
+      "id": "2026-04-busan-gangseo-treadmill",
+      "date": "2026.04",
+      "region": "부산",
+      "category": "장비 · 시공",
+      "title": "부산 강서구 1200세대 아파트",
+      "summary": "런닝머신 교체",
+      "photos": [
+        {
+          "src": "projects/images/2026-04-busan-gangseo-treadmill-1.jpg",
+          "label": "BEFORE",
+          "fit": "contain"
+        },
+        {
+          "src": "projects/images/2026-04-busan-gangseo-treadmill-2.jpg",
+          "label": "",
+          "fit": "contain"
+        },
+        {
+          "src": "projects/images/2026-04-busan-gangseo-treadmill-3.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-04-busan-gangseo-treadmill-4.jpg",
+          "label": "AFTER"
+        }
+      ],
+      "result": "노후화로 인클라인 기능이 멈추고 고장이 잦아 민원이 이어지던 런닝머신 전면 교체\n기존 런닝머신은 중고 시장에 판매해 아파트가 매각 대금을 회수하도록 진행\n헬토피아 직접 운반 · 설치로 시공 비용을 최저가로 절감"
     }
   ]
 }
