@@ -412,6 +412,52 @@
         }
       ],
       "result": "헬토피아 위탁운영 단지, 아파트 순수익 월 평균 600만원 운영\n입주민 수요조사를 통해 어시스트 친딥 · 파워랙 · 숄더프레스 · 고중량 덤벨 헬토피아 도매가로 직접 납품\n헬토피아 운영 단지는 모든 헬스기구 도매가로 납품"
+    },
+    {
+      "id": "2026-02-busan-suyeong-stepmill",
+      "date": "2026.02",
+      "region": "부산",
+      "category": "장비 · 시공",
+      "title": "부산 수영구 1100세대 아파트",
+      "summary": "스텝밀(천국의 계단) 납품 설치",
+      "photos": [
+        {
+          "src": "projects/images/2026-02-busan-suyeong-stepmill-1.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2026-02-busan-suyeong-stepmill-2c.jpg",
+          "label": "AFTER"
+        },
+        {
+          "src": "projects/images/2026-02-busan-suyeong-stepmill-3b.jpg",
+          "label": ""
+        }
+      ],
+      "result": "아파트 커뮤니티 순수익을 활용해 디랙스(DRAX) 스텝밀 3대 납품 · 설치\n설치 후 오프라인 홍보 마케팅으로 입주민 38명 신규 회원 등록\n신규 회원 증가로 커뮤니티 순수익 추가 확대"
+    },
+    {
+      "id": "2026-04-gimhae-locker",
+      "date": "2026.04",
+      "region": "김해",
+      "category": "장비 · 시공",
+      "title": "김해 율하 1000세대 아파트",
+      "summary": "헬스장 개인 락커 설치",
+      "photos": [
+        {
+          "src": "projects/images/2026-04-gimhae-locker-1.jpg",
+          "label": "BEFORE"
+        },
+        {
+          "src": "projects/images/2026-04-gimhae-locker-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-04-gimhae-locker-3.jpg",
+          "label": "AFTER"
+        }
+      ],
+      "result": "아파트 커뮤니티 환경 개선을 위해 입주민 개인 신발 락커 설치 · 제공\n락커 이용으로 아파트 월 100,000원 순수익 창출\n헬토피아에 지불하는 월 위탁운영 수수료 상쇄 효과"
     }
   ]
 }
