@@ -237,6 +237,9 @@ a { color: inherit; text-decoration: none; }
 .info small { font-size: 13px; color: rgba(255,255,255,.6); }
 .info b { font-size: 18px; font-weight: 500; user-select: all; }
 .info .tel b { font-size: 34px; font-weight: 500; letter-spacing: -0.01em; }
+.info .blog b { user-select: auto; }
+.info .blog a { text-decoration: underline; text-decoration-color: rgba(255,255,255,.35); text-underline-offset: 4px; transition: text-decoration-color .2s; }
+.info .blog a:hover { text-decoration-color: currentColor; }
 form { background: #fff; color: var(--ink); border-radius: 24px; padding: 40px; display: grid; gap: 18px; min-width: 0; }
 .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 label { display: grid; gap: 8px; font-size: 14px; font-weight: 600; }
@@ -309,6 +312,8 @@ body { position: relative; }
 .foot-nav { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14.5px; font-weight: 500; color: var(--ink); }
 .foot-nav a:hover { color: var(--green); }
 .menu-links a[aria-current="page"] { color: var(--green); }
+/* Blog opens on Naver in a new tab: mark it as an outside link */
+.menu-links a.ext::after { content: "↗"; }
 /* Event photo cards */
 .ev-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px; }
 .ev-card { grid-column: span 2; position: relative; aspect-ratio: 4 / 3; max-width: 100%; border-radius: 4px; overflow: hidden; color: #fff; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding: 28px; isolation: isolate; }
@@ -431,6 +436,7 @@ body { position: relative; }
         <div class="info">
           <div class="tel"><small>대표 전화</small><b>010-2995-3674</b></div>
           <div><small>이메일</small><b>official@helltopiafitness.com</b></div>
+          <div class="blog"><small>블로그</small><b><a href="https://blog.naver.com/helltopia_" target="_blank" rel="noopener">blog.naver.com/helltopia_ <span aria-hidden="true">↗</span></a></b></div>
           <div><small>창원 본사</small><b>경남 창원시 마산회원구 3·15대로 732 남산빌딩 405호</b></div>
           <div><small>서울 지사</small><b>서울 동작구 상도로61길 44 4층</b></div>
         </div>
@@ -477,7 +483,7 @@ body { position: relative; }
   <div class="wrap">
     <img src="images/logo.png" alt="헬토피아">
     <nav class="foot-nav" aria-label="사이트 메뉴">
-      <a href="about.html">회사소개</a><a href="services.html">사업분야</a><a href="events.html">아파트 행사</a><a href="projects.html">프로젝트</a><a href="contact.html">상담 신청</a>
+      <a href="about.html">회사소개</a><a href="services.html">사업분야</a><a href="events.html">아파트 행사</a><a href="projects.html">프로젝트</a><a href="https://blog.naver.com/helltopia_" target="_blank" rel="noopener">블로그</a><a href="contact.html">상담 신청</a>
     </nav>
     <div class="lines">
       <span>상호 헬토피아 · 대표 안재완 · TEL 010-2995-3674 · official@helltopiafitness.com</span>
@@ -503,6 +509,7 @@ body { position: relative; }
       <a href="services.html">사업분야</a>
       <a href="events.html">아파트 행사</a>
       <a href="projects.html">프로젝트</a>
+      <a class="ext" href="https://blog.naver.com/helltopia_" target="_blank" rel="noopener">블로그</a>
       <a href="contact.html">상담 신청</a>
     </nav>
     <div class="menu-foot">
