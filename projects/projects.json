@@ -458,6 +458,34 @@
         }
       ],
       "result": "아파트 커뮤니티 환경 개선을 위해 입주민 개인 신발 락커 설치 · 제공\n락커 이용으로 아파트 월 100,000원 순수익 창출\n헬토피아에 지불하는 월 위탁운영 수수료 상쇄 효과"
+    },
+    {
+      "id": "2026-05-busan-suyeong-festival",
+      "date": "2026.05",
+      "region": "부산",
+      "category": "커뮤니티 활성화",
+      "title": "부산 수영구 1100세대 아파트",
+      "summary": "아파트 단지 한마음 축제 개최",
+      "photos": [
+        {
+          "src": "projects/images/2026-05-busan-suyeong-festival-1.jpg",
+          "label": "",
+          "cover": true
+        },
+        {
+          "src": "projects/images/2026-05-busan-suyeong-festival-2.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-05-busan-suyeong-festival-3.jpg",
+          "label": ""
+        },
+        {
+          "src": "projects/images/2026-05-busan-suyeong-festival-4.jpg",
+          "label": ""
+        }
+      ],
+      "result": "입주자대표회의 주관 단지 한마음 축제, 헬토피아 운영 협조로 다양한 이벤트 진행\n아파트 비용 부담 없이 헬토피아 무상 지원으로 행사 운영\n입주민 만족도 증가 및 커뮤니티 시설 건의사항 현장 수렴"
     }
   ]
 }
