@@ -297,6 +297,7 @@ function showPhoto(p, i) {
   const ph = p.photos[photoIdx];
   $("d-img").src = ph.src;
   $("d-img").classList.toggle("contain", ph.fit === "contain");
+  $("d-img").style.objectPosition = ph.pos || "";   // optional focus point, e.g. "center 20%"
   $("d-img").alt = `${p.title} ${p.summary} 사진 ${photoIdx + 1}`;
   $("d-label").textContent = ph.label || "";
   $("d-label").hidden = !ph.label;
@@ -333,6 +334,7 @@ function renderDetail(p) {
     $("ba-after").src = after.src; $("ba-after").alt = `${p.title} 시공 후`;
     $("ba-before").classList.toggle("contain", before.fit === "contain");
     $("ba-after").classList.toggle("contain", after.fit === "contain");
+    $("ba-before").style.objectPosition = before.pos || ""; $("ba-after").style.objectPosition = after.pos || "";
     $("ba-range").value = 50; setBA(50);
   }
   const prev = list[at - 1], next = list[at + 1];
